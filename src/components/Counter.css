@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+.Counter_container{
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    font-size: 3rem;
+
+}
+
+p{
+    font-size: 2rem;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 0.5em 1em;
+}
+
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.btn-container button{
+    text-transform: capitalize;
+}
