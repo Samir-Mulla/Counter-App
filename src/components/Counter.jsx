@@ -4,11 +4,11 @@ import "./Counter.css";
 const Counter = () =>{
     const [count,setCount] = useState(0);
 
-    const Increment= ()=>{
+    function Increment(){
         setCount(count+1)
     }
 
-    const Decrement = () =>{
+    function Decrement(){
         setCount(count-1)
     }
 
